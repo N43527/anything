@@ -7,9 +7,8 @@ class Quiz
         @q4 = q4
         @q5 = q5
     end
-    
-    $score = 0
     def score
+    $score = 0
         if @q1 == "6"
             $score += 1
         end
